@@ -1,3 +1,7 @@
-.App {
+.todo {
+  background-color: rgb(36, 55, 66);
+  margin: 30px auto;
+  padding: 15px;
+  width: 50rem;
   text-align: center;
 }

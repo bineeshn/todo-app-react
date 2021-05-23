@@ -1,34 +1,45 @@
+.new-item {
+  background-color: #4b4b4b;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  margin: 30px auto;
+  max-width: 95%;
+  padding: 15px;
+  width: 50rem;
+}
+.new-item__control label {
+  color: white;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
 
-  
-  .new-expense__control label {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 10px;
-    display: block;
-    text-align: left;
-  }
-  
-  .new-expense__control input {
-    border-radius: 6px;
-  }
-  
-  .new-item__actions {
-    text-align: right;
-  }
-  .new-item__actions button {
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
-    width: 100%;
-  }
-  .new-item__actions button:hover {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    color: black;
-    font-weight: bold;
-    padding: 10px;
-    width: 100%;
-  }
+.new-item__control input {
+  border-radius: 6px;
+}
+
+.new-item__actions {
+  text-align: right;
+}
+.new-item__actions button {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+.new-item__actions button:hover {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+}
+.error {
+  color: red;
+  font-size: 16px;
+}
